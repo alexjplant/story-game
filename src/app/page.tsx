@@ -8,13 +8,13 @@ export default function Home() {
 			<Container size="sm" className="w-full">
 				<Title
 					order={1}
-					className="text-center mb-8"
+					className="text-center mb-8 title-outline"
 					style={{
-						fontSize: "3.5rem",
+						fontSize: "5rem",
 						fontWeight: 800,
 						color: "white",
-						textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-						letterSpacing: "-0.02em",
+						textTransform: "uppercase",
+						letterSpacing: "0.05em",
 					}}
 				>
 					The Story Game
